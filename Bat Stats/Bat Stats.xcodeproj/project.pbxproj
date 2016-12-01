@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBC928821DEFBC1C003FC69C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC928811DEFBC1C003FC69C /* HomeViewController.swift */; };
+		BBC928841DEFC1D8003FC69C /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC928831DEFC1D8003FC69C /* SearchTableViewController.swift */; };
+		BBC928861DEFCB86003FC69C /* RosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC928851DEFCB86003FC69C /* RosterTableViewController.swift */; };
+		BBC928881DEFCCFD003FC69C /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC928871DEFCCFD003FC69C /* CalendarTableViewController.swift */; };
 		BBFEE3601DECB1C100BB4E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE35F1DECB1C100BB4E23 /* AppDelegate.swift */; };
-		BBFEE3621DECB1C100BB4E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE3611DECB1C100BB4E23 /* ViewController.swift */; };
 		BBFEE3651DECB1C100BB4E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFEE3631DECB1C100BB4E23 /* Main.storyboard */; };
 		BBFEE3681DECB1C100BB4E23 /* Bat_Stats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE3661DECB1C100BB4E23 /* Bat_Stats.xcdatamodeld */; };
 		BBFEE36A1DECB1C100BB4E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFEE3691DECB1C100BB4E23 /* Assets.xcassets */; };
@@ -16,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BBC928811DEFBC1C003FC69C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BBC928831DEFC1D8003FC69C /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		BBC928851DEFCB86003FC69C /* RosterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterTableViewController.swift; sourceTree = "<group>"; };
+		BBC928871DEFCCFD003FC69C /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
 		BBFEE35C1DECB1C100BB4E23 /* Bat Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bat Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFEE35F1DECB1C100BB4E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBFEE3611DECB1C100BB4E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBFEE3641DECB1C100BB4E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBFEE3671DECB1C100BB4E23 /* Bat_Stats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bat_Stats.xcdatamodel; sourceTree = "<group>"; };
 		BBFEE3691DECB1C100BB4E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				BBFEE35F1DECB1C100BB4E23 /* AppDelegate.swift */,
-				BBFEE3611DECB1C100BB4E23 /* ViewController.swift */,
 				BBFEE3631DECB1C100BB4E23 /* Main.storyboard */,
 				BBFEE3691DECB1C100BB4E23 /* Assets.xcassets */,
 				BBFEE36B1DECB1C100BB4E23 /* LaunchScreen.storyboard */,
 				BBFEE36E1DECB1C100BB4E23 /* Info.plist */,
 				BBFEE3661DECB1C100BB4E23 /* Bat_Stats.xcdatamodeld */,
+				BBC928811DEFBC1C003FC69C /* HomeViewController.swift */,
+				BBC928831DEFC1D8003FC69C /* SearchTableViewController.swift */,
+				BBC928851DEFCB86003FC69C /* RosterTableViewController.swift */,
+				BBC928871DEFCCFD003FC69C /* CalendarTableViewController.swift */,
 			);
 			path = "Bat Stats";
 			sourceTree = "<group>";
@@ -139,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBFEE3621DECB1C100BB4E23 /* ViewController.swift in Sources */,
 				BBFEE3681DECB1C100BB4E23 /* Bat_Stats.xcdatamodeld in Sources */,
 				BBFEE3601DECB1C100BB4E23 /* AppDelegate.swift in Sources */,
+				BBC928861DEFCB86003FC69C /* RosterTableViewController.swift in Sources */,
+				BBC928821DEFBC1C003FC69C /* HomeViewController.swift in Sources */,
+				BBC928841DEFC1D8003FC69C /* SearchTableViewController.swift in Sources */,
+				BBC928881DEFCCFD003FC69C /* CalendarTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +315,7 @@
 				BBFEE3731DECB1C100BB4E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
